@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .file-input {
+    margin-bottom: 20px;
+  }
+  
+  .file-input input[type="file"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .response {
+    margin-top: 20px;
+  }
+  
+  .response h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .response a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .response a:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* Multi-select component styles */
+
+.multi-select-dropdown {
+  margin: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+.multi-select-dropdown label {
+  /* font-size: 24px;
+  margin-bottom: 10px;
+  display: block;
+  color: #333; */
+
+  font-size: 24px;
+  margin-bottom: 20px;
+  /* display: block; */
+  color: #333;
+  font-weight: 700;
+
+}
+
+.multi-select-dropdown select {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.6em;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  outline: none;
+  /* transition: border-color 0.1s; */
+}
+
+.multi-select-dropdown select:focus {
+  border-color: #007bff;
+  border-radius: 10px;
+}
+
+.multi-select-dropdown select option {
+  padding: 3px;
+  background-color: #fff;
+  color: #333;
+}
+
+.multi-select-dropdown select option:hover {
+  background-color: #007bff;
+  color: #fff;
+}
